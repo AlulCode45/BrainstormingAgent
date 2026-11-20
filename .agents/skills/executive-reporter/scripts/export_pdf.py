@@ -361,9 +361,15 @@ def md_to_html(md_text: str, base_dir: Path) -> str:
             if not in_ul:
                 out.append("<ul>")
                 in_ul = True
-            item = re.sub(r"^\[ \]\s+", "&#9744; ", ul_m.group(1))
-            item = re.sub(r"^\[x\]\s+", "&#9745; ", item, flags=re.I)
-            out.append(f"<li>{format_inline(item)}</li>")
+            raw_item = ul_m.group(1)
+            prefix = ""
+            if re.match(r"^\[ \]\s+", raw_item):
+                raw_item = re.sub(r"^\[ \]\s+", "", raw_item)
+                prefix = "&#9744; "
+            elif re.match(r"^\[x\]\s+", raw_item, flags=re.I):
+                raw_item = re.sub(r"^\[x\]\s+", "", raw_item, flags=re.I)
+                prefix = "&#9745; "
+            out.append(f"<li>{prefix}{format_inline(raw_item)}</li>")
             i += 1
             continue
 
