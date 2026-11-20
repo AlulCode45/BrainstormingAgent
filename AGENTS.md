@@ -20,7 +20,16 @@ Activate the matching skill in `.agents/skills/` based on the user's intent:
 - Evaluating business/product viability or monetization -> `business-validator`
 - Turning an idea into an MVP, architecture, or task list -> `project-scoper`
 - Writing a detailed, sequential Project Requirements & Plan (PRP) -> `prp-writer`
+- Researching the market, competitors, trends (live web/browser) -> `market-researcher`
+- SWOT, opportunities, management, finance, go-to-market analysis -> `strategy-analyst`
 - Stress-testing an idea for risks and weaknesses -> `devils-advocate`
+
+## Research & Staged Analysis
+
+- **Web research is allowed**: use `search_web`, the browser subagent, and lightpanda tools to research markets, competitors, and trends. Always cite sources and never invent data.
+- **Staged pipeline with checkpoints**: Idea -> PRP -> Market Research -> SWOT -> Opportunity -> Management -> Finance -> Go-to-Market & Risk.
+- After **each stage**, summarize briefly and **ask the user whether to continue to the next stage**. Do not skip ahead without approval.
+- Stage outputs are saved as numbered files inside `prps/<project>/` (07 to 12).
 - Saving/archiving a brainstorming session -> `idea-logger`
 
 ## Git & Repository Rule

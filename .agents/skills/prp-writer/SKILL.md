@@ -26,6 +26,12 @@ prps/YYYY-MM-DD-<project-slug>/
 ├── 04-data-model.md             # Data Model, ERD & Schema Definitions
 ├── 05-roadmap-and-tasks.md      # Phased Milestones & Actionable Task Breakdown
 ├── 06-risks-and-mitigation.md   # Risks, Edge Cases & Mitigation Plans
+├── 07-market-research.md        # (market-researcher) Market, competitors, sources
+├── 08-swot.md                   # (strategy-analyst) SWOT + TOWS
+├── 09-opportunity-analysis.md   # (strategy-analyst) Opportunities, PESTEL, Five Forces
+├── 10-management-plan.md        # (strategy-analyst) Team, operations, KPIs
+├── 11-financial-plan.md         # (strategy-analyst) Costs, pricing, projections
+├── 12-go-to-market-and-risk.md  # (strategy-analyst) Launch plan & risk register
 └── assets/                      # Generated illustrations, UI mockups, or charts
 ```
 
