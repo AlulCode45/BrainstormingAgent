@@ -23,11 +23,27 @@ Activate the matching skill in `.agents/skills/` based on the user's intent:
 - Researching the market, competitors, trends (live web/browser) -> `market-researcher`
 - SWOT, opportunities, management, finance, go-to-market analysis -> `strategy-analyst`
 - Stress-testing an idea for risks and weaknesses -> `devils-advocate`
+- Auditing evidence, source quality, assumptions -> `evidence-auditor`
+- Real financial model, scenarios, break-even, runway -> `financial-modeler`
+- Go/No-Go decision, comparing ideas, decision log -> `decision-scorecard`
+- Interviews, surveys, personas from real customers -> `customer-discovery`
+- Deep competitor matrix and review mining -> `competitor-analyst`
+- Licenses, permits, tax, IP, data protection, supply chain -> `compliance-checker`
+- Executive summary, charts, pitch/report export -> `executive-reporter`
+
+## Quality Gates (enterprise-grade standard)
+
+- Every number is labeled `Verified`, `Estimate`, `Assumption`, or `Unverified`; every source is graded A/B/C (see `evidence-auditor`). Assumptions go in `13-assumption-register.md`.
+- Financial figures come from the script in `financial-modeler`, never from prose guesses.
+- Before each stage checkpoint, run a short red-team pass (top 3 risks to the stage's conclusions) and mention it in the summary.
+- Use `templates/` for consistent documents. Record research dates and mark data older than 12 months as stale.
+- Keep `prps/INDEX.md` and each project's `CHANGELOG.md` updated; record major decisions as ADRs in `prps/<project>/decisions/`.
+- Compliance output is a research checklist, not legal advice.
 
 ## Research & Staged Analysis
 
 - **Web research is allowed**: use `search_web`, the browser subagent, and lightpanda tools to research markets, competitors, and trends. Always cite sources and never invent data.
-- **Staged pipeline with checkpoints**: Idea -> PRP -> Market Research -> SWOT -> Opportunity -> Management -> Finance -> Go-to-Market & Risk.
+- **Staged pipeline with checkpoints**: Idea -> PRP -> Market Research -> Competitors -> Customer Discovery -> SWOT -> Opportunity -> Management -> Finance (modeled) -> Compliance -> Go-to-Market & Risk -> Evidence Audit -> Go/No-Go Scorecard -> Executive Summary.
 - After **each stage**, summarize briefly and **ask the user whether to continue to the next stage**. Do not skip ahead without approval.
 - Stage outputs are saved as numbered files inside `prps/<project>/` (07 to 12).
 - Saving/archiving a brainstorming session -> `idea-logger`

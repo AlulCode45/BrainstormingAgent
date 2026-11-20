@@ -16,6 +16,13 @@ BrainstormingAgent/
 │       ├── prp-writer/                 # Pembuatan PRP project detail, runtut, & visual/chart
 │       ├── market-researcher/          # Riset pasar & kompetitor via web/browser (bersumber)
 │       ├── strategy-analyst/           # SWOT, peluang, manajemen, keuangan, GTM (bertahap)
+│       ├── evidence-auditor/           # Skor sumber, Assumption Register, fakta vs asumsi
+│       ├── financial-modeler/          # Model keuangan via skrip: 3 skenario, break-even, runway
+│       ├── decision-scorecard/         # Go/No-Go berbobot, perbandingan ide, ADR
+│       ├── customer-discovery/         # Wawancara, survei, JTBD, persona
+│       ├── competitor-analyst/         # Matriks kompetitor, review mining, ERRC
+│       ├── compliance-checker/         # Izin, pajak, HKI, data pribadi, rantai pasok
+│       ├── executive-reporter/         # Ringkasan eksekutif, chart, export
 │       ├── devils-advocate/            # Uji ketahanan ide, risiko, & blind spot
 │       └── idea-logger/                # Arsip hasil diskusi ke folder ideas/
 ├── ideas/                              # Catatan brainstorming, dikelompokkan per topik

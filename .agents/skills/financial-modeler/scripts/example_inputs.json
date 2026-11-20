@@ -1,0 +1,16 @@
+{
+  "currency": "IDR",
+  "price": 150000,
+  "unit_variable_cost": 60000,
+  "monthly_fixed_costs": 5000000,
+  "starting_cash": 30000000,
+  "month1_units": 60,
+  "monthly_growth": 0.10,
+  "cac": 25000,
+  "repeat_orders_per_customer": 2.0,
+  "scenario_multipliers": {
+    "pessimistic": {"units": 0.6, "growth": 0.5, "cost": 1.1},
+    "base": {"units": 1.0, "growth": 1.0, "cost": 1.0},
+    "optimistic": {"units": 1.4, "growth": 1.4, "cost": 0.95}
+  }
+}

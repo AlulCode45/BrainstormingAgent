@@ -32,6 +32,15 @@ prps/YYYY-MM-DD-<project-slug>/
 ├── 10-management-plan.md        # (strategy-analyst) Team, operations, KPIs
 ├── 11-financial-plan.md         # (strategy-analyst) Costs, pricing, projections
 ├── 12-go-to-market-and-risk.md  # (strategy-analyst) Launch plan & risk register
+├── 13-assumption-register.md    # (evidence-auditor) Assumptions, confidence, tests
+├── 14-customer-discovery.md     # (customer-discovery) Interviews, JTBD, personas
+├── 15-competitor-analysis.md    # (competitor-analyst) Matrix, review mining, ERRC
+├── 16-compliance-and-legal.md   # (compliance-checker) Permits, tax, IP, data
+├── 17-scorecard-and-decision.md # (decision-scorecard) Go/No-Go verdict
+├── 18-executive-summary.md      # (executive-reporter) One-page summary
+├── CHANGELOG.md                 # Version history (see templates/changelog.md)
+├── decisions/                   # ADR-NNN-<slug>.md decision records
+├── model/                       # inputs.json for financial-modeler
 └── assets/                      # Generated illustrations, UI mockups, or charts
 ```
 
