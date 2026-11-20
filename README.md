@@ -13,6 +13,7 @@ BrainstormingAgent/
 │       ├── ideation-facilitator/       # Eksplorasi ide (SCAMPER, First Principles, HMW)
 │       ├── business-validator/         # Validasi bisnis (Lean Canvas, ICP, monetisasi)
 │       ├── project-scoper/             # Pemecahan ide jadi MVP & task breakdown
+│       ├── prp-writer/                 # Pembuatan PRP project detail, runtut, & visual/chart
 │       ├── devils-advocate/            # Uji ketahanan ide, risiko, & blind spot
 │       └── idea-logger/                # Arsip hasil diskusi ke folder ideas/
 └── ideas/                              # Hasil brainstorming tersimpan (.md)
