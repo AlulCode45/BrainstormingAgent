@@ -16,7 +16,9 @@ BrainstormingAgent/
 │       ├── prp-writer/                 # Pembuatan PRP project detail, runtut, & visual/chart
 │       ├── devils-advocate/            # Uji ketahanan ide, risiko, & blind spot
 │       └── idea-logger/                # Arsip hasil diskusi ke folder ideas/
-└── ideas/                              # Hasil brainstorming tersimpan (.md)
+├── ideas/                              # Hasil brainstorming tersimpan (.md)
+└── prps/                               # Dokumen PRP project terstruktur per folder
+    └── YYYY-MM-DD-<project-slug>/      # 00-overview s/d 06-risks + assets/
 ```
 
 ## Cara Pakai
