@@ -13,8 +13,9 @@ Persist brainstorming outcomes as clean, searchable Markdown files in `ideas/`.
 ## Workflow
 
 1. **Determine Filename**:
-   - Format: `ideas/YYYY-MM-DD-<slug>.md` (lowercase, hyphenated, e.g., `ideas/2026-11-21-saas-umkm-kasir.md`).
-   - Check `ideas/` first so existing files are not accidentally overwritten unless updating the same topic.
+   - Never save files directly in `ideas/`. Group every note in a topic folder: `ideas/<topic-slug>/YYYY-MM-DD-<note>.md` (lowercase, hyphenated, e.g., `ideas/saas-umkm-kasir/2026-11-21-validasi.md`).
+   - Reuse the existing topic folder if the idea already has one; otherwise create it. Add an `assets/` subfolder inside it for images.
+   - Check the folder first so existing files are not accidentally overwritten unless updating the same note.
 2. **Use Structured Template**:
    ```markdown
    # <Idea / Topic Title>

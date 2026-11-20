@@ -18,7 +18,8 @@ BrainstormingAgent/
 │       ├── strategy-analyst/           # SWOT, peluang, manajemen, keuangan, GTM (bertahap)
 │       ├── devils-advocate/            # Uji ketahanan ide, risiko, & blind spot
 │       └── idea-logger/                # Arsip hasil diskusi ke folder ideas/
-├── ideas/                              # Hasil brainstorming tersimpan (.md)
+├── ideas/                              # Catatan brainstorming, dikelompokkan per topik
+│   └── <topic-slug>/                   # YYYY-MM-DD-<catatan>.md + assets/
 └── prps/                               # Dokumen PRP project terstruktur per folder
     └── YYYY-MM-DD-<project-slug>/      # 00-overview s/d 06-risks + assets/
 ```

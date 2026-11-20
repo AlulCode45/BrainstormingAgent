@@ -1,7 +1,7 @@
 # Tahap 4: Opportunity dan Environment (Brand Parfum Malang)
 
 Status: lokal saja, belum di-push. Tanggal: 2026-11-21.
-Dasar: [08-swot.md](08-swot.md) dan [riset pasar](../../ideas/2026-11-21-parfum-malang-riset-pasar.md).
+Dasar: [08-swot.md](08-swot.md) dan [riset pasar](../../ideas/parfum-malang/2026-11-21-riset-pasar.md).
 Tanda: **[F]** fakta (dari riset atau user), **[A]** asumsi.
 
 ## 1. Peluang diurutkan (dampak vs usaha)

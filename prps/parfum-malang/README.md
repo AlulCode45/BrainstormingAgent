@@ -2,8 +2,8 @@
 
 Status: lokal saja, belum di-push.
 
-- [Validasi ide](../../ideas/2026-11-21-parfum-malang-validasi.md)
-- [Riset pasar](../../ideas/2026-11-21-parfum-malang-riset-pasar.md)
+- [Validasi ide](../../ideas/parfum-malang/2026-11-21-validasi.md)
+- [Riset pasar](../../ideas/parfum-malang/2026-11-21-riset-pasar.md)
 - [08 SWOT dan TOWS](08-swot.md)
 - [09 Opportunity dan Environment](09-opportunity-analysis.md)
 - [10 Management dan Operasional](10-management-plan.md)

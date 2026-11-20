@@ -1,7 +1,7 @@
 # Tahap 6: Finance dan Unit Economics (Brand Parfum Malang)
 
 Status: lokal saja, belum di-push. Tanggal: 2026-11-21.
-Dasar: [10-management-plan.md](10-management-plan.md), [riset pasar](../../ideas/2026-11-21-parfum-malang-riset-pasar.md).
+Dasar: [10-management-plan.md](10-management-plan.md), [riset pasar](../../ideas/parfum-malang/2026-11-21-riset-pasar.md).
 Tanda: **[F]** dari user atau riset, **[A]** asumsi yang belum diverifikasi.
 
 ## 1. Asumsi

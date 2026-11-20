@@ -1,7 +1,7 @@
 # Tahap 3: SWOT dan TOWS (Brand Parfum Malang)
 
 Status: lokal saja, belum di-push. Tanggal: 2026-11-21.
-Dasar bukti: [riset pasar](../../ideas/2026-11-21-parfum-malang-riset-pasar.md) dan [validasi ide](../../ideas/2026-11-21-parfum-malang-validasi.md).
+Dasar bukti: [riset pasar](../../ideas/parfum-malang/2026-11-21-riset-pasar.md) dan [validasi ide](../../ideas/parfum-malang/2026-11-21-validasi.md).
 Tanda: **[F]** fakta dari riset, **[A]** asumsi yang belum terbukti.
 
 ## SWOT
